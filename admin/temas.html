@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciamento de Temas</title>
+</head>
+<body>
+    <header>
+        <h1>Área de Administração - Temas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Página Inicial</a></li>
+            <li><a href="temas.html">Temas</a></li>
+            <li><a href="usuarios.html">Usuários</a></li>
+            <li><a href="login.html">Sair</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Cadastro / Edição de Tema</h2>
+            <form>
+                <label for="nome-tema">Nome do Tema:</label>
+                <input type="text" id="nome-tema" required><br><br>
+                <button type="submit">Salvar Tema</button>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h2>Temas Cadastrados</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Desenvolvimento Web</td>
+                        <td>
+                            <button type="button">Editar</button>
+                            <button type="button">Apagar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Érica Luana | <a href="../sobre.html">Sobre o Autor</a></p>
+    </footer>
+</body>
+</html>
