@@ -1,49 +1,20 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Página Inicial</title>
-</head>
-<body>
-    <header>
-        <h1>Meu Site Principal</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre o Autor</a></li>
-            <li>
-                <a href="admin/login.html">Admin</a>
-                <ul>
-                    <li><a href="admin/temas.html">Gerenciar Temas</a></li>
-                    <li><a href="admin/usuarios.html">Gerenciar Usuários</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-    <main>
-        <h2>Bem-vindo à página inicial!</h2>
-        <p>Este é o site público do projeto.</p>
-    </main>
-    <footer>
-        <p>Desenvolvido por Érica Luana | <a href="sobre.html">Sobre o Autor</a></p>
-    </footer>
-</body>
-=======
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Érica Luana - Materiais Criativos</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-
-    <!-- a. Cabeçalho -->
     <header>
         <h1>Érica Luana - Materiais Criativos</h1>
-        <!-- b. Menu de navegação -->
-        <nav>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="btn-menu btn-abrir" aria-label="Abrir menu">☰</label>
+        <label for="menu-toggle" class="btn-menu btn-fechar" aria-label="Fechar menu">✕</label>
+
+        <nav class="nav-publica" aria-label="Menu principal">
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="detalhes.html">Materiais</a></li>
@@ -52,17 +23,15 @@
         </nav>
     </header>
 
-    <!-- Conteúdo da Página Inicial (Coleção de Objetos Tema) -->
     <main>
         <section>
             <h2>Transforme suas aulas com materiais lúdicos!</h2>
-            <p>Desenvolvidos com carinho por Érica Luana</p>
+            <p>Desenvolvidos com carinho por Érica Luana.</p>
         </section>
 
         <section>
             <h3>Nossos Materiais</h3>
-            <div>
-                <!-- Dados relevantes do objeto tema -->
+            <div class="card-material">
                 <img src="caminho-da-imagem.jpg" alt="Kit pranchas para massinha">
                 <h4>Kit pranchas para massinha</h4>
                 <p>R$ 5,00</p>
@@ -71,11 +40,8 @@
         </section>
     </main>
 
-    <!-- c. Rodapé -->
     <footer>
         <p>Desenvolvido por Érica Luana | <a href="sobre.html">Sobre a autora</a></p>
     </footer>
-
 </body>
->>>>>>> b70dfa662cc894d3ef35cae7e67d2c1ddf0366f5
 </html>
