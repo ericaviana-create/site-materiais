@@ -1,6 +1,6 @@
 /* Variáveis de cores e tipografia - Mobile First */
 :root {
-    --cor-primaria: #2b4c7e;
+    --cor-primaria: #d81b60;
     --cor-secundaria: #e07a5f;
     --cor-fundo: #f6f7fb;
     --cor-superficie: #ffffff;
@@ -74,9 +74,15 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    border: 1px solid var(--cor-borda);
     border-radius: 6px;
-    margin: 0.75rem 0;
+}
+
+.card-material img {
+    width: 100%;
+    height: auto;
+    max-height: 360px;
+    object-fit: contain;
+    margin-bottom: 0.75rem;
 }
 
 a {
